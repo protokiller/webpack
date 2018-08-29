@@ -64,15 +64,6 @@ const CLIs = [
 		installed: isInstalled("webpack-cli"),
 		url: "https://github.com/webpack/webpack-cli",
 		description: "The original webpack full-featured CLI."
-	},
-	{
-		name: "webpack-command",
-		package: "webpack-command",
-		binName: "webpack-command",
-		alias: "command",
-		installed: isInstalled("webpack-command"),
-		url: "https://github.com/webpack-contrib/webpack-command",
-		description: "A lightweight, opinionated webpack CLI."
 	}
 ];
 
